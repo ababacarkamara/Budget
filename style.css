@@ -1,0 +1,183 @@
+*
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body
+{
+	
+	width:95%;
+	height:90%;
+	background-position: 200px 15px;
+	font-family:Cambria;
+	
+}
+a
+{
+	color:black;
+	font-family:calibri;
+	text-decoration:none;
+	
+}
+a:hover, a:active
+{
+	color:blue;
+}
+body h2, h3, h4
+{
+	text-align:center;
+}
+header h1
+{
+	text-align:center;
+}
+
+header h1 a
+{
+	font-family:monotype corsiva;
+	font-size:40px;
+	color:black;
+}
+.footer
+{
+	clear:both;
+	background:rgb(139, 228, 231);
+	margin-top:50px;
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+.footer h5
+{
+	text-align:center;
+	color:rgb(0, 0, 0);
+	padding:5px 10px;
+}
+.menu
+{
+	clear:both;
+	width:80%;
+	margin-left:180px;
+	height:5%;
+}
+.menu ul li
+{
+	display:inline;
+}
+.menu li a
+{
+
+	margin-bottom:2px;
+	padding-right:55px;
+	padding-left:55px;
+	background:rgb(139, 228, 231);
+	color:black;
+	float:left;
+	font-family:calibri;
+}
+.menu li a:active
+{
+	background-color:rgb(130, 20, 233);
+	color:rgba(143, 136, 136, 0.938);
+}
+.menu li a:hover
+{
+	background-color:rgb(101, 132, 218);
+	color:white;
+}
+.contenu
+{
+	width: 100%;
+	float:left;
+	height:60%;
+}
+.vitrine
+{
+	float:left;
+	width: 100%;
+	height: 98%;
+	padding: 2% 2% 2% 2%;
+	text-align: center;
+}
+.vitrine td
+{
+	
+	height:40px;
+	border:1px;
+	border-color:black;
+	border-style:solid;
+}
+
+.vitrine table
+{
+	
+	border:2px;
+	border-color:black;
+	border-style:solid;
+	background-color:white;
+	margin:auto;
+	margin-left:25px;
+}
+.connexion
+{
+	font-family:calibri;
+	width:40%;
+	height:25%;
+	margin-left: 30%;
+	float:left;
+}
+.connexion a
+{
+	font-family:calibri;
+	color:black;
+}
+td
+{
+	text-align:center;
+	height:40px;
+	border:1px;
+	border-color:black;
+	border-style:solid;
+}
+
+table
+{
+	text-align:center;
+	border:2px;
+	border-color:black;
+	border-style:solid;
+	background-color:white;
+	margin:auto;
+}
+.categorie
+{
+	margin-left:10px;
+	margin-top:100px;
+	margin-right:10px;
+	float: left;
+}
+#ajouter
+{
+	margin-left:250px;
+	float: left;
+}
+#deconnection
+{
+	margin-right:250px;
+	float: right;
+}
+.ajouter, .modifier
+{
+	margin-left:300px;
+}
+.restaurer
+{
+	margin: 5% 20%;
+}
+.valeur
+{
+	color:black;
+	font-family:Cambria;
+	text-decoration: bold;
+}
